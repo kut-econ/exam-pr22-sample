@@ -4,6 +4,8 @@
 
 10GiBは何MiBバイトですか？答えなさい。
 
+Ans. 10240
+
 ## Q2
 
 次のうち、正しい記述には○を、誤った記述には×をつけなさい。(部分点あり)
@@ -15,6 +17,8 @@
 5. CPUは演算機能を備えているが、主記憶装置(メモリ)にはそれがない。
 6. 主記憶装置の情報を読み書きするときの最小単位は4ビットである。
 
+Ans. x x x o o x
+
 ## Q3
 
 10進数の2500を16進ダンプした際に得られる表示はどれか？正しい選択肢の番号を答えなさい。ただしリトルエンディアン格納方式の2バイト整数とする。
@@ -23,6 +27,8 @@
 2. 09c4
 3. c940
 4. 40c9
+
+Ans. 1
 
 ## Q4
 
@@ -33,6 +39,8 @@
 3. 11111110 00111110
 4. 00111110 11111110
 
+Ans. 3
+
 ## Q5
 
 42.46875を単精度浮動小数点としてビット列表記したものは次のうちどれか。正しい選択肢を一つ選び、その番号を答えなさい。
@@ -41,6 +49,8 @@
 2. 0-00000101-01010011 11000000 0000000
 3. 0-10000100-01010011 11000000 0000000
 4. 0-10000100-10101001 11100000 0000000
+
+Ans. 3
 
 <div style="page-break-before:always"></div>
 
@@ -61,6 +71,8 @@ git branch -d new
 4. リモートにはmaster、newが存在し、ローカルはmaster、new2が存在
 5. リモート、ローカルともにmasterとnew2が存在
 
+Ans. 4
+
 ## Q7
 
 Git/Githubに関する問題です。ローカルリポジトリrepo内に存在するファイルcode.pyに編集を加えたあと、ステージング・コミットしたとします。このコミットをキャンセルし、ステージングする直前の状態に戻すためのコマンドとして正しいものを一つ選びなさい。
@@ -69,6 +81,8 @@ Git/Githubに関する問題です。ローカルリポジトリrepo内に存在
 2. git reset --soft HEAD^
 3. git reset --mixed HEAD^
 4. git reset --soft HEAD
+
+Ans. 3
 
 ## Q8
 
@@ -85,6 +99,8 @@ git revert HEAD
 2. commit1と同じ内容
 3. commit2と同じ内容
 4. commit3と同じ内容
+
+Ans. 4
 
 <div style="page-break-before:always"></div>
 
@@ -104,6 +120,8 @@ git reset --mixed HEAD^
 3. commit2と同じ内容
 4. commit3と同じ内容
 
+Ans. 2
+
 ## Q10
 
 次のRコードを実行したときに得られる出力として正しいものを一つ選びなさい。
@@ -121,6 +139,8 @@ print(x)
 3. `[1] 1 3 4 5`
 4. `[1] 1 2 3 5`
 
+Ans. 1
+
 ## Q11
 
 次のPythonコードを実行したときに得られる出力として正しいものを一つ選びなさい。
@@ -136,6 +156,8 @@ print(y,x is y)
 2. `[1,4,2,3,4,5] True`
 3. `[1,2,3,4,1,5] True`
 4. `[1,2,4,3,4,5] True`
+
+Ans. 2
 
 <div style="page-break-before:always"></div>
 
@@ -156,6 +178,8 @@ print(x,y,z)
 3. `[1,2] [1,2,3] [1,2,3]`
 4. エラーが出力されて停止する
 
+Ans. 2
+
 ## Q13
 
 次のPythonコードを実行したあと、続けて実行したときにエラーが出ないコードには○を、エラーが出るコードには☓をつけなさい。(部分点あり)
@@ -173,6 +197,8 @@ x = "letters"
 7. `y = x + "capitals"`
 8. `y = x - x`
 9. `y = x * 2 + 3`
+
+Ans. o o x o o x o x x
 
 <div style="page-break-before:always"></div>
 
@@ -195,6 +221,8 @@ print(c(address(x) == add, address(y) == add, address(z) == add))
 3. `[1] FALSE FALSE TRUE`
 4. `[1] TRUE TRUE TRUE`
 
+Ans. 2
+
 ## Q15
 
 次のPythonコードを実行したときに得られる出力として正しいものを一つ選びなさい。
@@ -210,6 +238,8 @@ print(x,x is y)
 2. `['foo','bar','baz'] False`
 3. `[1,2,3] True`
 4. `[[1,2,3]] True`
+
+Ans. 2
 
 <!--<div style="page-break-before:always"></div>-->
 
@@ -230,6 +260,8 @@ print(x)
 3. `[4,2,[3,5]]`
 4. `[1,2,[3,5]]`
 
+Ans. 4
+
 <div style="page-break-before:always"></div>
 
 ## Q17
@@ -249,6 +281,8 @@ print(y[0] is z[0],y[0][0] is z[0][0],y[0][0][0] is z[0][0][0])
 3. `False True True`
 4. `True True True`
 
+Ans. 2
+
 ## Q18
 
 次のPythonコードを実行したあと、変数yにリスト[7,5,3]を代入するためのコードとして正しいものを**2つ**選びなさい。
@@ -262,6 +296,8 @@ x = list(range(10))
 3. `y = x[-3:-8:-2]`
 4. `y = x[-3:-7:-2]`
 
+Ans. 1, 3
+
 ## Q19
 
 次のPythonコードを実行した結果得られる出力を記述しなさい。解答例：`[[1],2,[3,4]]`
@@ -272,6 +308,8 @@ x = x + 2 * x.copy()
 x[1][:] = (3,4)
 print(x)
 ```
+
+Ans. `[[3,4],[3,4],[3,4]]`
 
 ## Q20
 
@@ -287,6 +325,8 @@ for i in range(10):
 print(x)
 ```
 
+Ans. 5
+
 ## Q21
 
 次のPythonコードを実行した結果出力される整数を答えなさい。
@@ -300,6 +340,8 @@ for i in range(10):
         x += 1
 print(x)
 ```
+
+Ans. 8
 
 <!--<div style="page-break-before:always"></div>-->
 
@@ -317,6 +359,8 @@ for i in range(10):
 print(x)
 ```
 
+Ans. 6
+
 ## Q23
 
 次のPythonコードを実行した結果出力される整数を答えなさい。
@@ -328,6 +372,8 @@ for i in range(3):
         x +=j
 print(x)
 ```
+
+Ans. 8
 
 <div style="page-break-before:always"></div>
 
@@ -353,6 +399,8 @@ print(x,y)
 print(sys.getsizeof("a"*10 + "あ"*5))
 ```
 
+Ans. 104
+
 ## Q25
 
 次のPythonコードを実行した際に得られる出力を文字列で答えなさい。解答例：`abCDefg`
@@ -360,6 +408,8 @@ print(sys.getsizeof("a"*10 + "あ"*5))
 ```python
 print("".join("aAbaAb".upper().split("AB"))*3)
 ```
+
+Ans. `AAAAAA`
 
 ## Q26
 
@@ -369,6 +419,8 @@ print("".join("aAbaAb".upper().split("AB"))*3)
 print('aaab'.replace("aa","aab").replace("aba","a"))
 ```
 
+Ans. `aab`
+
 ## Q27
 
 次のPythonコードを実行した結果出力として得られる文字列を答えなさい。解答例：`abCDefg`
@@ -377,6 +429,8 @@ print('aaab'.replace("aa","aab").replace("aba","a"))
 trans = {ord(c)+2:c for c in 'abcdef'}
 print("dfg".translate(trans))
 ```
+
+Ans. `bde`
 
 <div style="page-break-before:always"></div>
 
@@ -390,6 +444,8 @@ print("dfg".translate(trans))
 4. `(())`
 5. `(,)`
 6. `((),)`
+
+Ans. o x o o x o
 
 ## Q29
 
@@ -417,6 +473,8 @@ with open('./output.txt','bw') as file:
 ん　　　　 --> e38293 e38080 e38080 e38080 e38080 
 ```
 
+Ans. てんさい
+
 ## Q30
 
 Python辞書を作成するコードとして正しいものには○を、誤っているものには☓をつけなさい。(部分点あり)
@@ -429,6 +487,8 @@ Python辞書を作成するコードとして正しいものには○を、誤�
 6. `x = dict(1='a',2='b')`
 7. `x = dict(((1,2),(3,4)))`
 8. `x = dict({'a':1,'b':2},c=3)`
+
+Ans. o o o x o x o o
 
 <!--<div style="page-break-before:always"></div>-->
 
@@ -458,6 +518,8 @@ x['cat']='meow'
 3. `1 -1 -1 0 -1 -1 -1 -1`
 4. `-1 0 -1 -1 -1 1 -1 -1`
 
+Ans. 2
+
 ## Q32
 
 次のPythonコードを実行したとします。
@@ -476,6 +538,8 @@ a = y.union(x)
 3. `y.issubset(z)`
 4. `'julia' in z`
 
+Ans. `T T F T`
+
 <!--<div style="page-break-before:always"></div>-->
 
 ## Q33
@@ -485,6 +549,8 @@ a = y.union(x)
 ```python
 print({i % 3:i for i in range(10) if i % 2 == 0}[0])
 ```
+
+Ans. 6
 
 ## Q34
 
@@ -500,6 +566,8 @@ def func(x):
 
 x = func(2)
 ```
+
+Ans. 3
 
 ## Q35
 
@@ -519,6 +587,8 @@ gen = generator()
 print(list(gen)[4])
 ```
 
+Ans. 11
+
 ## Q36
 
 次のPythonコードを実行した際に出力される整数を答えなさい。
@@ -527,6 +597,8 @@ print(list(gen)[4])
 x = range(10)
 print([i-1 if i%3==1 else i+1 for i in x][4])
 ```
+
+Ans. 3
 
 <div style="page-break-before:always"></div>
 
@@ -549,6 +621,8 @@ x = np.arange(10)
 6. x[0:5:2] = (5,5,5)
 7. x[0:3] = [0,1,2]
 
+Ans. o o o x o o o
+
 ## Q38
 
 次のPythonコードを実行したさいに、出力される整数を答えなさい。
@@ -561,6 +635,8 @@ y += 3
 print(x[2])
 ```
 
+Ans. 5
+
 ## Q39
 
 以下のPythonコードは、Numpyを用いて、切片10、傾き-2の線形モデルに従うサンプルサイズ100の疑似データを生成し、変数`y`に配列として格納するためのものである。ただし実測値`y`は標準正規分布に従う誤差を含むとする。`#????`に書くべきコードを答えなさい。
@@ -571,6 +647,8 @@ x = np.random.normal(5,2,100)
 e = np.random.normal(0,1,100)
 y = #????
 ```
+
+Ans. `10 - 2 * x + e`
 
 <div style="page-break-before:always"></div>
 
@@ -585,6 +663,8 @@ y = x[1:,::2].sum()
 print(y)
 ```
 
+Ans. 22
+
 ## Q41
 
 以下のPythonコードを実行したさいに出力される値を答えなさい。
@@ -597,6 +677,8 @@ y[1] += 3
 print(x.sum(axis=0).mean())
 ```
 
+Ans. 15.0
+
 ## Q42
 
 以下のPythonコードを実行した際に出力される値を答えなさい。
@@ -607,6 +689,8 @@ x += np.array([[1],[2]])
 x -= np.array([1,2,3])
 print(x.sum())
 ```
+
+Ans. 12
 
 ## Q43
 
@@ -620,6 +704,8 @@ def f():
 f()
 print(x)
 ```
+
+Ans. 0
 
 <div style="page-break-before:always"></div>
 
@@ -640,9 +726,13 @@ def f():
 print(f() + x)
 ```
 
+Ans. 3
+
 ## Q45
 
 Q44の最後の一行`print(f()+x)`を`print(x+f())`に書き換えた場合、出力される値を答えなさい。
+
+Ans. 1
 
 ## Q46
 
@@ -657,11 +747,15 @@ def closure():
       x = y
     return x
   return inner
+
+f = closure()
 f('My')
 f('friend')
 f('is')
 print(f('nice'))
 ```
+
+Ans. `friend`
 
 ## Q47
 
@@ -671,3 +765,5 @@ Python3に関する以下の記述のうち、正しいものには○、誤っ�
 2. Pythonコード内で変数を参照すると、インタープリタはまず初めにビルトイン名前空間を検索する。
 3. 一つのプログラム内で同じ`import`文を複数記述することにより、同じモジュールを何度でも再読み込みすることができる。
 4. builtinsモジュール以外にもビルトインモジュールは存在する。
+
+Ans. x x x o
